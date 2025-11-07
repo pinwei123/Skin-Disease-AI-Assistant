@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter checkpoints
+*.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+newenv/
+ENV/
+env/
+.venv/
+
+# Logs / outputs
+outputs/
+wandb/
+*.log
+
+# Model weights and tokenizer
+**/*.pt
+**/*.bin
+**/*.ckpt
+**/*.safetensors
+huggingface_tokenizers_cache/
+lora_model/
